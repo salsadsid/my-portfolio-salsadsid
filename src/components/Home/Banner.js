@@ -2,7 +2,7 @@ import React from 'react';
 
 const Banner = () => {
     const openInNewTab = () => {
-        window.open('https://www.google.com/search?q=react+onclick+open+new+tab+with+link&rlz=1C1RLNS_enBD881BD881&oq=react+onclick+open&aqs=chrome.5.0i512j69i57j0i512l8.24213j0j4&sourceid=chrome&ie=UTF-8', '_blank', 'noopener,noreferrer');
+        window.open('https://drive.google.com/file/d/15T_HOO7ibuplrJnnFGeiYSMnw1NLopBi/view?usp=sharing', '_blank', 'noopener,noreferrer');
     }
     return (
         <div class="hero min-h-screen bg-stone-800">

@@ -21,10 +21,10 @@ const Navbar = () => {
                 </div>
                 <Link to='/' className="btn btn-ghost normal-case text-xl"><span className='text-white'>sSs</span></Link>
             </div>
-            <div className="navbar-center hidden lg:flex">
+            <div className="navbar-center ">
 
             </div>
-            <div className="navbar-end">
+            <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">
                     {menuItem}
                 </ul>
