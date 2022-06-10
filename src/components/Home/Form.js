@@ -16,7 +16,7 @@ const Form = () => {
         e.target.reset()
     };
     return (
-        <div>
+        <div id='contact'>
             <h1 className='text-center text-5xl mt-12'>Contact Me</h1>
             <div class="card w-96 bg-base-100 shadow-xl mx-auto p-12 my-12">
 
@@ -35,7 +35,7 @@ const Form = () => {
                     </div>
                     <div class="form-control">
                         <label class="label">
-                            <span class="label-text">Email</span>
+                            <span class="label-text">Message</span>
                         </label>
                         <textarea type="text" placeholder="message" class="input input-bordered" name='message' />
                     </div>

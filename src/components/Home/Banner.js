@@ -1,13 +1,14 @@
 import React from 'react';
-
+import img from '../../assets/img/salman-lg.png'
 const Banner = () => {
     const openInNewTab = () => {
         window.open('https://drive.google.com/file/d/15T_HOO7ibuplrJnnFGeiYSMnw1NLopBi/view?usp=sharing', '_blank', 'noopener,noreferrer');
     }
     return (
         <div class="hero min-h-screen bg-stone-800">
-            <div class="hero-content text-center">
-                <div >
+            <div class="hero-content flex-col lg:flex-row-reverse">
+                <img src="https://api.lorem.space/image/movie?w=260&h=400" class="max-w-sm rounded-lg shadow-2xl" />
+                <div>
                     <h1 class="text-white text-4xl font-lg">Hello there</h1>
                     <p class="py-4 text-white text-5xl font-lg">I'm Salman Sadik Siddiquee</p>
                     <p class="pb-5 text-white text-3xl font-lg">Full-Stack Web Developer</p>
@@ -15,6 +16,7 @@ const Banner = () => {
                 </div>
             </div>
         </div>
+
     );
 };
 

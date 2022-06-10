@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
     const menuItem = <>
         <li className='text-white font-medium text-lg'><Link to='/'>Home</Link></li>
-        <li className='text-white font-medium text-lg'><Link to='#projects'>Project</Link></li>
-        <li className='text-white font-medium text-lg'><Link to='/projects'>Skills</Link></li>
-        <li className='text-white font-medium text-lg'><Link to='/projects'>Contact Me</Link></li>
+        <li className='text-white font-medium text-lg'><a href='#projects'>Projects</a></li>
+        <li className='text-white font-medium text-lg'><a href='#about'>About Me</a></li>
+        <li className='text-white font-medium text-lg'><Link to='#contact'>Contact Me</Link></li>
     </>
     return (
         <div className="navbar bg-stone-800">

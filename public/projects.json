@@ -1,0 +1,66 @@
+[
+    {
+        "id": "624abe65b392ffd06ce41bb5",
+        "img": "./images/motorbikefragments.jpg",
+        "name": "Motorbike Fragments",
+        "des": "A motorbike parts manufacturer's full-stack website.",
+        "overview": [
+            "Users can delete their order, add reviews and pay for their orders.",
+            "Admin can manage products, make admin and manage orders.",
+            "Stripe payment system and jwt authorization activates on this site."
+        ],
+        "technology": [
+            "HTML",
+            "Tailwind CSS",
+            "Firebase",
+            "React.js",
+            "Node.js",
+            "MongoDB."
+        ],
+        "livesite": "https://motorbike-fragments-salsadsid.web.app/",
+        "client": "https://github.com/salsadsid/motorbike-fragments-client-salsadsid",
+        "server": "https://github.com/salsadsid/motorbike-fragments-server-salsadsid"
+    },
+    {
+        "id": "624abe85b392ffd06ce41bb5",
+        "img": "./images/electronwarehousemanagement.jpg",
+        "name": "Electron Warehouse Management",
+        "des": "A Warehouse Management System full-stack website.",
+        "overview": [
+            "Users can deliver a product, add products and delete products.",
+            "Email-password and Google sign-in methods are implemented.",
+            "Some routes are private; only users can access those routes."
+        ],
+        "technology": [
+            "HTML",
+            "Bootstrap",
+            "Firebase",
+            "React.js",
+            "Node.js",
+            "MongoDB."
+        ],
+        "livesite": "https://electron-warehouse-management.web.app/",
+        "client": "https://github.com/salsadsid/electron-warehouse-management-client",
+        "server": "https://github.com/salsadsid/electron-warehouse-management-server"
+    },
+    {
+        "id": "624abe78b392ffd06ce41bb5",
+        "img": "./images/salaccounting.jpg",
+        "name": "Sal Accounting",
+        "des": "A accounting services provider's website.",
+        "overview": [
+            "Authentication system implemented on this site.",
+            "The checkout page is protected; only users can access this page.",
+            "Blogs and about sections added to this site."
+        ],
+        "technology": [
+            "HTML",
+            "Bootstrap",
+            "React.js",
+            "React Hook",
+            "Firebase."
+        ],
+        "livesite": "https://sal-accounting.web.app/",
+        "client": "https://github.com/salsadsid/sal-accounting"
+    }
+]
