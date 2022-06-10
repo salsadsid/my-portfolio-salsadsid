@@ -37,6 +37,8 @@ const ProjectDetail3 = () => {
                                 <li><i class="fas fa-cookie-bite text-secondary"> </i> Authentication system implemented on this site.</li>
                                 <li><i class="fas fa-cookie-bite text-secondary"> </i> The checkout page is protected; only users can access this page.</li>
                                 <li><i class="fas fa-cookie-bite text-secondary"> </i> Blogs and about sections added to this site.</li>
+                                <li><i class="fas fa-cookie-bite text-secondary"> </i> Using Bootstrap for design</li>
+                                <li><i class="fas fa-cookie-bite text-secondary"> </i> Footer and capabilities section added in this site.</li>
                             </ul>
                         </li>
                     </ul>

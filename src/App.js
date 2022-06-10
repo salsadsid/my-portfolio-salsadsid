@@ -7,6 +7,7 @@ import Footer from './components/Shared/Footer';
 import ProjectDetail from './components/ProjectDetail/ProjectDetail';
 import ProjectDetail2 from './components/ProjectDetail/ProjectDetail2';
 import ProjectDetail3 from './components/ProjectDetail/ProjectDetail3';
+import Blogs from './components/Blogs/Blogs';
 function App() {
   return (
     <div>
@@ -17,6 +18,7 @@ function App() {
         <Route path='/project1' element={<ProjectDetail></ProjectDetail>}></Route>
         <Route path='/project2' element={<ProjectDetail2></ProjectDetail2>}></Route>
         <Route path='/project3' element={<ProjectDetail3></ProjectDetail3>}></Route>
+        <Route path='/blogs' element={<Blogs></Blogs>}></Route>
       </Routes>
     </div>
   );

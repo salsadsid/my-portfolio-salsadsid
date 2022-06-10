@@ -37,6 +37,8 @@ const ProjectDetail = () => {
                                 <li><i class="fas fa-cookie-bite text-secondary"> </i> Users can delete their order, add reviews and pay for their orders.</li>
                                 <li><i class="fas fa-cookie-bite text-secondary"> </i> Admin can manage products, make admin and manage orders.</li>
                                 <li><i class="fas fa-cookie-bite text-secondary"> </i> Stripe payment system and jwt authorization activates on this site.</li>
+                                <li><i class="fas fa-cookie-bite text-secondary"> </i> User can purchase any bike parts</li>
+                                <li><i class="fas fa-cookie-bite text-secondary"> </i> User can login and sign up to this site using email and password or Google login.</li>
                             </ul>
                         </li>
                     </ul>

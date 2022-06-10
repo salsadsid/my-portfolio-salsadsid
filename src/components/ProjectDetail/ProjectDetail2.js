@@ -37,6 +37,8 @@ const ProjectDetail2 = () => {
                                 <li><i class="fas fa-cookie-bite text-secondary"> </i> Users can deliver a product, add products and delete products.</li>
                                 <li><i class="fas fa-cookie-bite text-secondary"> </i> Email-password and Google sign-in methods are implemented.</li>
                                 <li><i class="fas fa-cookie-bite text-secondary"> </i> Some routes are private; only users can access those routes.</li>
+                                <li><i class="fas fa-cookie-bite text-secondary"> </i> User can add new Products in this site.</li>
+                                <li><i class="fas fa-cookie-bite text-secondary"> </i> This website uses NoSQL Database -MongoDB.</li>
                             </ul>
                         </li>
                     </ul>

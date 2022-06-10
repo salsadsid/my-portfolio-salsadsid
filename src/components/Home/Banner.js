@@ -7,7 +7,7 @@ const Banner = () => {
     return (
         <div class="hero min-h-screen bg-stone-800">
             <div class="hero-content flex-col lg:flex-row-reverse">
-                <img src="https://api.lorem.space/image/movie?w=260&h=400" class="max-w-sm rounded-lg shadow-2xl" />
+                <img src={img} alt="" className='w-80' />
                 <div>
                     <h1 class="text-white text-4xl font-lg">Hello there</h1>
                     <p class="py-4 text-white text-5xl font-lg">I'm Salman Sadik Siddiquee</p>
